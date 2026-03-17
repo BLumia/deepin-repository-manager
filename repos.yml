@@ -1406,15 +1406,19 @@ repos:
     group: deepin-sysdev-team
     info: Python program that generates fake data
 
+  - repo: farmhash #main
+    group: deepin-sysdev-team
+    info: FarmHash provides hash functions for strings and other data
+
+  - repo: fast-float #main
+    group: deepin-sysdev-team
+    info: Fast and exact implementation of the C++ from_chars functions for float and double types
+
   - repo: fastfetch
     group: deepin-sysdev-team
     info:
       Fastfetch is a neofetch-like tool for fetching system information and displaying
       them in a pretty way.
-
-  - repo: fast-float #main
-    group: deepin-sysdev-team
-    info: Fast and exact implementation of the C++ from_chars functions for float and double types
 
   - repo: fbterm
     group: deepin-sysdev-team
@@ -1902,6 +1906,10 @@ repos:
   - repo: gdl
     group: deepin-sysdev-team
     info: GNOME DevTool libraries - development files
+
+  - repo: gemmlowp #main
+    group: deepin-sysdev-team
+    info: It only does general matrix multiplication ("GEMM")
 
   - repo: generate-ninja
     group: deepin-sysdev-team
@@ -7620,6 +7628,10 @@ repos:
     group: deepin-sysdev-team
     info: command line mail reader based on Mutt, with added features
 
+  - repo: neon-2-sse #main
+    group: deepin-sysdev-team
+    info: simplify ARM to IA32 porting
+
   - repo: netavark #main
     group: deepin-sysdev-team
     info: Rust based network stack for containers
@@ -8312,6 +8324,10 @@ repos:
     group: deepin-sysdev-team
     info: Interactive NVIDIA GPU process monitor
 
+  - repo: nx-libs
+    group: deepin-sysdev-team
+    info: nxagent's libNX_X11 client-part library
+
   - repo: nyacc
     group: deepin-sysdev-team
     info: NYACC is set of guile modules for generating parsers and lexical analyzers.
@@ -8454,6 +8470,10 @@ repos:
   - repo: onnxruntime #main
     group: deepin-sysdev-team
     info: cross-platform inference and training ML accelerator
+
+  - repo: oourafft #main
+    group: deepin-sysdev-team
+    info: Calculate Discrete Fourier/Cosine/Sine Transforms
 
   - repo: open-vm-tools #main
     group: deepin-sysdev-team
@@ -10756,6 +10776,10 @@ repos:
     group: deepin-sysdev-team
     info: The Rust Programming Language.
 
+  - repo: ruy #main
+    group: deepin-sysdev-team
+    info: ruy is a matrix multiplication library
+
   - repo: ryzen-smu
     group: deepin-sysdev-team
     info:
@@ -11288,6 +11312,10 @@ repos:
   - repo: templating-maven-plugin #main
     group: deepin-sysdev-team
     info: Copying files to an output directory
+
+  - repo: tensorflow #main
+    group: deepin-sysdev-team
+    info: Computation using data flow graphs for scalable machine learning
 
   - repo: tepl #main
     group: deepin-sysdev-team
@@ -11911,10 +11939,6 @@ repos:
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
 
-  - repo: zix #main
-    group: deepin-sysdev-team
-    info: A lightweight C library of portability wrappers and data structures
-
   - repo: zarr #main
     group: deepin-sysdev-team
     info: chunked, compressed, N-dimensional arrays for Python
@@ -11945,6 +11969,10 @@ repos:
   - repo: zita-convolver
     group: deepin-sysdev-team
     info: C++ library implementing a real-time convolution matrix
+
+  - repo: zix #main
+    group: deepin-sysdev-team
+    info: A lightweight C library of portability wrappers and data structures
 
   - repo: zlog #main
     group: deepin-sysdev-team
@@ -12074,30 +12102,3 @@ repos:
     group: deepin-sysdev-team
     info: Fast and lightweight x86/x86-64 disassembler library
 
-  - repo: nx-libs
-    group: deepin-sysdev-team
-    info: nxagent's libNX_X11 client-part library
-
-  - repo: ruy #main
-    group: deepin-sysdev-team
-    info: ruy is a matrix multiplication library
-
-  - repo: neon-2-sse #main
-    group: deepin-sysdev-team
-    info: simplify ARM to IA32 porting
-
-  - repo: gemmlowp #main
-    group: deepin-sysdev-team
-    info: It only does general matrix multiplication ("GEMM")
-
-  - repo: oourafft #main
-    group: deepin-sysdev-team
-    info: Calculate Discrete Fourier/Cosine/Sine Transforms
-
-  - repo: farmhash #main
-    group: deepin-sysdev-team
-    info: FarmHash provides hash functions for strings and other data
-
-  - repo: tensorflow #main
-    group: deepin-sysdev-team
-    info: Computation using data flow graphs for scalable machine learning
