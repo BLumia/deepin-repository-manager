@@ -11999,6 +11999,10 @@ repos:
     group: deepin-sysdev-team
     info: Command-line YAML processor - jq wrapper for YAML documents
 
+  - repo: yq-go
+    group: deepin-sysdev-team
+    info: Portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor
+
   - repo: yuzu
     group: deepin-sysdev-team
     info: Nintendo Switch emulator/debugger
